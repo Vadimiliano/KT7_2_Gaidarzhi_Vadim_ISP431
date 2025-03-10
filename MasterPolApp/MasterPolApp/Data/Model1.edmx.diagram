@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e6e5a40493c94ec596f5911c00477f08" Name="Diagram1">
+        <EntityTypeShape EntityType="PartnerBDModel.Area" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.City" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Directors" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Index" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Material_Type" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Partner_Product" Width="1.5" PointX="5.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Partners" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.PartnerType" Width="1.5" PointX="0.75" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Product" Width="1.5" PointX="3" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.ProductType" Width="1.5" PointX="0.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.Street" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PartnerBDModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partners_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partners_City" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partners_Directors" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partners_Index" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partner_Product_Partners" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partner_Product_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partners_PartnerType" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Partners_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="PartnerBDModel.FK_Product_ProductType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
