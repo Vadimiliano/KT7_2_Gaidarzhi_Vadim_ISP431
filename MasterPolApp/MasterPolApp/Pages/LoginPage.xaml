@@ -10,10 +10,14 @@
 
     <Grid>
         <StackPanel VerticalAlignment="Center"
-                    HorizontalAlignment="Center">
-            <Label Content="Логин"></Label>
+                    HorizontalAlignment="Center"
+                    >
+            <StackPanel.Effect>
+                <DropShadowEffect/>
+            </StackPanel.Effect>
+            <Label Content="Логин" HorizontalAlignment="Left"></Label>
             <TextBox x:Name="LoginTextBox"></TextBox>
-            <Label Content="Пароль"></Label>
+            <Label Content="Пароль" HorizontalAlignment="Left"></Label>
             <PasswordBox x:Name="LoginPasswordBox"></PasswordBox>
             <Button x:Name="LoginButton" Content="Войти"
                     Click="LoginButton_Click"

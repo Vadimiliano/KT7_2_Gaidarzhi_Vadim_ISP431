@@ -15,6 +15,9 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Background="#F4E8D3 ">
+            <Grid.Effect>
+                <DropShadowEffect/>
+            </Grid.Effect>
             <Label Content="Мастер пол"
                    FontSize="35"
                    FontWeight="Bold"
