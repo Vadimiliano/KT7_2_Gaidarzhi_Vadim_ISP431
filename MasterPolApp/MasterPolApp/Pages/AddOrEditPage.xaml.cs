@@ -13,18 +13,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MasterPolApp
+namespace MasterPolApp.Pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для AddOrEditPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddOrEditPage : Page
     {
-        public MainWindow()
+        public AddOrEditPage()
         {
             InitializeComponent();
-            Classes.Manager.MainFrame = MainFrame;
-            Classes.Manager.MainFrame.Navigate(new Pages.LoginPage());
+        }
+
+        private void GoBackButton_Click(object sender, RoutedEventArgs e)
+        {
+            Classes.Manager.MainFrame.Navigate(new Pages.ListPage());
+
+        }
+
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
 
         }
     }

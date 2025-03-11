@@ -5,16 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MasterPolApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="1000"
+         MinHeight="600" MinWidth="1000"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Grid Grid.Row="0" Background="Red">
+        <Grid Grid.Row="0" Background="#F4E8D3 ">
             <Label Content="Мастер пол"
-                   FontSize="30"
+                   FontSize="35"
+                   FontWeight="Bold"
+                   FontFamily="Segoe UI"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Center">
                 
@@ -23,12 +27,13 @@
             <Image Source="/Res/Мастер пол.png"
                    VerticalAlignment="Center"
                    HorizontalAlignment="Left"
-                   Margin="230,0,0,0"></Image>
+                   Margin="330,5,5,5"></Image>
         </Grid>
 
         <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"
                VerticalAlignment="Center"
-               HorizontalAlignment="Center"></Frame>
+               HorizontalAlignment="Center"
+               Grid.Row="1"></Frame>
         
     </Grid>
 </Window>
