@@ -44,12 +44,22 @@
                         <TextBlock Text="10%"
                                    Grid.Column="1"></TextBlock>
 
-                        <Button x:Name="EditButton"
+
+                        <StackPanel Grid.Column="2" VerticalAlignment="Center"
+                                    HorizontalAlignment="Center">
+                            <Button x:Name="EditButton"
                                 Content="Редактировать"
                                 Click="EditButton_Click"
-                                Grid.Column="2"
                                 Width="150"
-                                Height="30"></Button>
+                                Height="30" Margin="2.5"></Button>
+                            <Button x:Name="HistoryButton"
+                                Content="История"
+                                Click="HistoryButton_Click"
+                                Width="150"
+                                Height="30" Margin="2.5"></Button>
+                        </StackPanel>
+                    
+
 
                     </Grid>
                 </DataTemplate>
