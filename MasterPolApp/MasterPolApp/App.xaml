@@ -28,5 +28,9 @@
             <Setter Property="Height" Value="30"></Setter>
             <Setter Property="Background" Value="#67BA80 "></Setter>
         </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+        </Style>
+
     </Application.Resources>
 </Application>

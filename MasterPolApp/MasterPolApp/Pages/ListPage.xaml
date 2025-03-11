@@ -24,16 +24,21 @@
                         </Grid.ColumnDefinitions>
                         <StackPanel Grid.Column="0">
                             <TextBlock Text="{Binding PartnerType.Type, 
-                                StringFormat={}{0}}"> |  
+                                StringFormat={}{0}}" 
+                                       FontWeight="Bold"
+                                       FontSize="15"> |  
                                 <TextBlock Text="{Binding PartnerName, 
                                 StringFormat={}{0}}"></TextBlock>
                             </TextBlock>
                             <TextBlock Text="{Binding Directors.Name, 
-                                StringFormat={}{0}}"></TextBlock>
+                                StringFormat={}{0}}"
+                                       FontSize="14"></TextBlock>
                             <TextBlock Text="{Binding PhoneNumber, 
-                                StringFormat={}{0}}"></TextBlock>
+                                StringFormat={}{0}}"
+                                       FontSize="14"></TextBlock>
                             <TextBlock Text="{Binding Rating, 
-                                StringFormat={}Рейтинг: {0}}"></TextBlock>
+                                StringFormat={}Рейтинг: {0}}"
+                                       FontSize="14"></TextBlock>
                         </StackPanel>
 
                         <TextBlock Text="10%"
